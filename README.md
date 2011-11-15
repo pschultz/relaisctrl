@@ -1,3 +1,13 @@
+##Compiling
+Dependencies are
+
+- libpcre
+- Maybe more. Have to check on a clean system
+
+To compile run
+
+    make
+
 ##Usage
 
     relaisctrl [options] command [...]
