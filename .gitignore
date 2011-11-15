@@ -1,4 +1,5 @@
 *.o
+driver/*.o
 *.so
 relaisctrl
 example-code/relais
