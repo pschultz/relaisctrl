@@ -1,0 +1,4 @@
+*.o
+*.so
+relaisctrl
+example-code/relais
