@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall -c -I. -Idriver #-std=c++0x
+CFLAGS=-Wall -O3 -c -I. -Idriver #-std=c++0x
 LDFLAGS=-L. -lrelaisdriver -lpcre
 
 SOURCES=main.cpp relaisctrl.cpp argumentparser.cpp commands.cpp
