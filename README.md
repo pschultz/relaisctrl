@@ -45,3 +45,8 @@ previous after a short delay.
 
 You may have to set `LD_LIBRARY_PATH` to the location of `librelaisdriver.so`,
 e. g. `LD_LIBRARY_PATH=. ./relaisctrl +15 +3 ~8 -7` right after `make`.
+
+Depending on your system, you may have to adjust the delay between commands. The delay is
+defined in [`driver/relaisdriver.cpp`](https://github.com/pschultz/relaisctrl/blob/master/driver/relaisdriver.cpp).
+A good indicator for that is if commands seem to be ignored, partially or in total. 
+Run `relaisctrl -t` and check if the sequence of LED flashes matches what is printed on the screen.
