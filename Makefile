@@ -23,6 +23,6 @@ $(PROGRAM): $(OBJECTS)
 	$(CC) $(CFLAGS) $< -o $@
 
 clean:
-	rm -f $(PROGRAM) *.o lib/*.so *.so *~
+	rm -f $(PROGRAM) *.o driver/*.o lib/*.so *.so *~
 
 
