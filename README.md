@@ -1,3 +1,6 @@
+##About
+This is a driver software and cli for the <insert board name here>.
+
 ##Compiling
 Dependencies are
 
